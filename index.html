@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div ">
+            <img src="imgs/menu.png" class="menu-icon">
+            <a href="" class="flex-div">
+                <img src="imgs/logo2.png" class="logo">
+                <h2>Metube</h2>
+            </a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="imgs/search.png" >
+            </div>
+            <div class="mic flex-div">
+                <img src="imgs/voice-search.png" class="mic-icon">
+            </div>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="imgs/upload.png">
+            <img src="imgs/more.png">
+            <img src="imgs/notification.png">
+            <img src="imgs/Jack.png" class="user-icon" id="user"> 
+            <div class="sub_menu">
+                <ul >
+                    <li>
+                        <div class="user_login">
+                            <img src="imgs/Jack.png">
+                        </div>
+                        <div class="info_login">
+                          <h2>Jack Nichosol</h2>
+                          <p>jackldegigner@gmail.com</p>
+                          <p class="notice_account">Manege your Google account</p>
+                        </div>
+                    </li>
+                    <hr>
+                    <li><i class="fa-solid fa-user"></i><p> Create a channel</p></li>
+                    <li><i class="fas fa-dollar-sign"></i><p>Puchases and memberships</p></li>
+                    <li><i class="fab fa-youtube"></i><p>Metube studio</p></li>
+                    <li><i class="fas fa-people-arrows"></i><p>Switch account</p><i class="fas fa-angle-right arrow"></i></li>
+                    <li><i class="fas fa-sign-out"></i><p>Sign out</p></li>
+                    <hr>
+                    <li id="dark"><i class="fa-solid fa-moon" ></i><p id="p_dark">Appearance: Light</p></li>
+                    <li><i class="fas fa-language"></i><p>Language: British English</p><i class="fas fa-angle-right arrow"></i></li>
+                    <li><i class="fas fa-globe-americas"></i></i><p>Location: Viet Nam</p><i class="fas fa-angle-right arrow"></i></li>
+                    <li><i class="fas fa-cog"></i><p>Setting</p></li>
+                    <li><i class="fas fa-question-circle"></i><p>Help</p></li>
+                    <li><i class="fas fa-shield-alt"></i><p>Your data in metube</p></li>
+                    <li><i class="fas fa-external-link"></i><p>Send feedback</p></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--------------------------------sidebar----------------------->
+    <div class="sidebar">
+        <div class="shortcut-link">
+            <a href=""><img src="imgs/home.png" ><p>Home</p></a>
+            <a href=""><img src="imgs/explore.png" ><p>Explore</p></a>
+            <a href=""><img src="imgs/subscriprion.png" ><p>Subcriprion</p></a>
+            <a href=""><img src="imgs/library.png" ><p>Library</p></a>
+            <a href=""><img src="imgs/history.png" ><p>History</p></a>
+            <a href=""><img src="imgs/playlist.png" ><p>Playlist</p></a>
+            <a href=""><img src="imgs/messages.png" ><p>Messages</p></a>
+            <a href=""><img src="imgs/show-more.png" ><p>Show more</p></a>
+            <hr>
+        </div>
+        <div class="subcribed-list">
+            <h3>SUBCRIBED</h3>
+            <a href=""><img src="imgs/Jack.png" ><p>jack Nicholson</p></a>
+            <a href=""><img src="imgs/simon.png" ><p>Simon Baker</p></a>
+            <a href=""><img src="imgs/tom.png" ><p>Tom Hardy</p></a>
+            <a href=""><img src="imgs/megan.png" ><p>Megan Ryan</p></a>
+            <a href=""><img src="imgs/cameron.png" ><p>Cameron Diaz</p></a>
+
+
+        </div>
+    </div>
+    <!----------------------------------main--------------------------------->
+    <div class="recomend_tag flex-div">
+        <span>All</span>
+        <span>Music</span>
+        <span>Animation</span>
+        <span>Game</span>
+        <span>web deverloper</span>
+        <span>C++ tutorials</span>
+        <span>Photoshop</span>
+        <span>Unity</span>
+        <span>Nodemy</span>
+
+    </div>
+    <div class="container">
+        <div class="banner">
+            <img src="imgs/banner.png">
+        </div>
+        <div class="list-container">
+            <div class="vid-list">
+           
+                <a href="play.html">
+                    <img src="imgs/thumbnail1.png" class="thumbnail">
+                    <ul class="active_bar flex_div">
+                        <li>
+                            <i class="fa-solid fa-clock"></i>
+                            <span>watch later</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-list"></i>
+                            <span>Add to play list</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-download"></i>
+                            <span>Dowload</span>
+                        </li>
+                    </ul>
+                     <span class="vid_tittle"> click to play video</span>
+                     <span class="time"> 10:00</span>
+                </a>
+                  
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="play.html">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail2.png" class="thumbnail">
+                    <span class="vid_tittle">click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail3.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail4.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail5.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail6.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail7.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div" >
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail8.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------------copy------------------------------------->
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail1.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail2.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail3.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail4.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span></a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail5.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail6.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail7.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div" >
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail8.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------copy---------------------------------->
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail1.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail2.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail3.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href=""><img src="imgs/thumbnail4.png" class="thumbnail">
+                    <span class="vid_tittle"> click to play video</span>
+                    <span class="time"> 10:00</span>
+                </a>   
+                <div class="flex-div">
+                    <img src="imgs/Jack.png">
+                    <div class="vid-info">
+                        <a href="">Best channel to learn coding that help you to be a web developer</a>
+                        <p> Easy Tutorials</p>
+                        <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="js/app.js"></script>
+</html>
